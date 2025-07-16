@@ -1,3 +1,184 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Remote Internship Program</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Remote Internship Program</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Apply</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h2>Join Our Remote Internship Program!</h2>
+    <p>Learn by working on real projects.</p>
+    <a href="#" class="btn">Apply Now</a>
+  </section>
+
+  <section class="about">
+    <div class="container">
+      <h3>About the Program</h3>
+      <p>Our remote internships offer hands-on experience, mentorship, and flexibility. Build real-world skills from anywhere.</p>
+    </div>
+  </section>
+
+  <section class="benefits">
+    <div class="container">
+      <h3>Why Join?</h3>
+      <ul>
+        <li>✅ Flexible Hours</li>
+        <li>✅ Real Projects</li>
+        <li>✅ Certificate on Completion</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>📧 Contact us: internship@example.com</p>
+      <p>© 2025 Remote Internship Program. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
+
+
+---
+
+✅ style.css
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #003366;
+  color: #fff;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #fff;
+  margin-right: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background-color: #e0f0ff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #003366;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.about, .benefits {
+  background-color: #fff;
+  margin-top: 30px;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.benefits ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.benefits li {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+footer {
+  background-color: #003366;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 30px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  header .container,
+  .about .container,
+  .benefits .container,
+  footer .container {
+    padding: 10px;
+    text-align: center;
+  }
+
+  nav a {
+    display: block;
+    margin: 5px 0;
+  }
+
+  .hero h2 {
+    font-size: 24px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+}
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
